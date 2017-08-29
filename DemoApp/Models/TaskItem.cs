@@ -1,0 +1,20 @@
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+
+namespace DemoApp.Models
+{
+    public class TaskItem
+    {
+        [Key]
+        public int TaskId { get; set; }
+
+        [Required]
+        public string Description { get; set; }
+
+        [Required]
+        public DateTime DateCreated { get; set; }
+
+        [Required]
+        public bool IsCompleted { get; set; }
+    }
+}
