@@ -5,7 +5,7 @@ namespace ToDo.Web.Mvc.Models
 {
     public class TaskDbContext : DbContext
     {
-        public TaskDbContext() : base("DbConnection")
+        public TaskDbContext() : base("Db.ConnectionString")
         {
         }
 
