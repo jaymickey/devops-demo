@@ -28,7 +28,7 @@ object DevopsDemo_BuildDemo : BuildType({
             type = "jb.nuget.installer"
             param("nuget.path", "%teamcity.tool.NuGet.CommandLine.DEFAULT%")
             param("nuget.updatePackages.mode", "sln")
-            param("sln.path", "DemoApp.sln")
+            param("sln.path", "src/ToDo.Web.Mvc.sln")
         }
         msBuild {
             name = "Build Solution"
