@@ -13,10 +13,10 @@ namespace DemoApp.Models
             return _db.Tasks.ToListAsync();
         }
 
-        public void Add(TaskItem task)
+        public Task AddAsync(TaskItem task)
         {
             _db.Tasks.Add(task);
-            _db.SaveChanges();
+            return _db.SaveChangesAsync();
         }
 
         public Task UpdateAsync(TaskItem task)

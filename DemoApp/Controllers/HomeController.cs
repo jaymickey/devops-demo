@@ -32,7 +32,7 @@ namespace DemoApp.Controllers
                 return View(model);
             }
 
-            _repository.Add(new TaskItem()
+            await _repository.AddAsync(new TaskItem()
             {
                 Description = model.NewTask.Description,
                 DateCreated = DateTime.Now,
