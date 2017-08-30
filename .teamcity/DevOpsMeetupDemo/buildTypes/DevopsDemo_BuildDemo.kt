@@ -32,7 +32,7 @@ object DevopsDemo_BuildDemo : BuildType({
         }
         msBuild {
             name = "Build Solution"
-            path = "DemoApp.sln"
+            path = "src/ToDo.Web.Mvc.sln"
             toolsVersion = MSBuildStep.MSBuildToolsVersion.V15_0
             platform = MSBuildStep.Platform.x64
             args = """
@@ -46,15 +46,15 @@ object DevopsDemo_BuildDemo : BuildType({
         step {
             name = "Push Packages to Octopus"
             type = "octopus.push.package"
-            param("octopus_additionalcommandlinearguments", "--apiKey %Octopus.ApiKey%")
             param("octopus_host", "http://192.168.137.2:8080")
-            param("octopus_packagepaths", "*.%build.number%.nupkg")
-            param("secure:octopus_apikey", "credentialsJSON:8558e8d7-7a07-4e13-afde-9f0c06e93f1e")
+            param("octopus_packagepaths", "**\*.%build.number%.nupkg")
+            param("secure:octopus_apikey", "credentialsJSON:de5a9aae-1202-4e15-8192-60b8b97aabef")
         }
     }
 
     triggers {
         vcs {
+            triggerRules = "+:root=DevOpsMeetupDemo_GitHubJaymickeyDevOpsDemo:src/**"
         }
     }
 })
