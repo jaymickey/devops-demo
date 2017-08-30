@@ -18,7 +18,7 @@ object DevopsDemo_BuildDemo : BuildType({
     buildNumberPattern = "0.0.%build.counter%"
 
     vcs {
-        root(DevOpsMeetupDemo.vcsRoots.DevopsDemo_HttpsGithubComJaymickeyDevopsDemoRefsHeadsMaster)
+        root(DevOpsMeetupDemo.vcsRoots.DevOpsMeetupDemo_GitHubJaymickeyDevOpsDemo)
 
     }
 
@@ -49,7 +49,7 @@ object DevopsDemo_BuildDemo : BuildType({
             param("octopus_additionalcommandlinearguments", "--apiKey %Octopus.ApiKey%")
             param("octopus_host", "http://192.168.137.2:8080")
             param("octopus_packagepaths", "*.%build.number%.nupkg")
-            param("secure:octopus_apikey", "zxx4469c7c25073dd9f")
+            param("secure:octopus_apikey", "credentialsJSON:8558e8d7-7a07-4e13-afde-9f0c06e93f1e")
         }
     }
 
