@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace DemoApp.Models
+namespace ToDo.Web.Mvc.Models
 {
     public interface ITasksRepository
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp", "DemoApp\DemoApp.csproj", "{9091C8A6-8E15-48FA-A9C3-D586D4440596}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Web.Mvc", "ToDo.Web.Mvc\ToDo.Web.Mvc.csproj", "{9091C8A6-8E15-48FA-A9C3-D586D4440596}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoApp.Tests", "DemoApp.Tests\DemoApp.Tests.csproj", "{62EF4266-9619-4A88-91BD-412DD4577B96}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo.Web.Mvc.Tests", "ToDo.Web.Mvc.Tests\ToDo.Web.Mvc.Tests.csproj", "{62EF4266-9619-4A88-91BD-412DD4577B96}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

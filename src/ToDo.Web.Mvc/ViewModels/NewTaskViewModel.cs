@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DemoApp.ViewModels
+namespace ToDo.Web.Mvc.ViewModels
 {
     public class NewTaskViewModel
     {

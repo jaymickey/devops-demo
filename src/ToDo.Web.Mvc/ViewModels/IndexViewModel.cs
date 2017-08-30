@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using DemoApp.Models;
+using ToDo.Web.Mvc.Models;
 
-namespace DemoApp.ViewModels
+namespace ToDo.Web.Mvc.ViewModels
 {
     public class IndexViewModel
     {

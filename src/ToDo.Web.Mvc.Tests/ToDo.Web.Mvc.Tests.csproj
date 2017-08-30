@@ -9,8 +9,8 @@
     <ProjectGuid>{62EF4266-9619-4A88-91BD-412DD4577B96}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DemoApp.Tests</RootNamespace>
-    <AssemblyName>DemoApp.Tests</AssemblyName>
+    <RootNamespace>ToDo.Web.Mvc.Tests</RootNamespace>
+    <AssemblyName>ToDo.Web.Mvc.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoApp\DemoApp.csproj">
+    <ProjectReference Include="..\ToDo.Web.Mvc\ToDo.Web.Mvc.csproj">
       <Project>{9091C8A6-8E15-48FA-A9C3-D586D4440596}</Project>
-      <Name>DemoApp</Name>
+      <Name>ToDo.Web.Mvc</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

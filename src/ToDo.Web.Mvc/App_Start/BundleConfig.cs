@@ -1,6 +1,6 @@
 ﻿using System.Web.Optimization;
 
-namespace DemoApp
+namespace ToDo.Web.Mvc
 {
     public class BundleConfig
     {

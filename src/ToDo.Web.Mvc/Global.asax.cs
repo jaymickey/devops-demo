@@ -2,7 +2,7 @@
 using System.Web.Optimization;
 using System.Web.Routing;
 
-namespace DemoApp
+namespace ToDo.Web.Mvc
 {
     public class MvcApplication : System.Web.HttpApplication
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace DemoApp.Models
+namespace ToDo.Web.Mvc.Models
 {
     public class TaskItem
     {

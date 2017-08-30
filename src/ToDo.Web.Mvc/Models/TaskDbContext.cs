@@ -1,7 +1,7 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
 
-namespace DemoApp.Models
+namespace ToDo.Web.Mvc.Models
 {
     public class TaskDbContext : DbContext
     {

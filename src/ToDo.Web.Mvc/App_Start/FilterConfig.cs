@@ -1,6 +1,6 @@
 ﻿using System.Web.Mvc;
 
-namespace DemoApp
+namespace ToDo.Web.Mvc
 {
     public class FilterConfig
     {

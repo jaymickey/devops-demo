@@ -2,7 +2,7 @@
 using System.Data.Entity;
 using System.Threading.Tasks;
 
-namespace DemoApp.Models
+namespace ToDo.Web.Mvc.Models
 {
     public class TasksRepository : ITasksRepository
     {

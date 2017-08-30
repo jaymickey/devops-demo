@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using System.Web.Mvc;
-using DemoApp.Models;
-using DemoApp.ViewModels;
+using ToDo.Web.Mvc.Models;
+using ToDo.Web.Mvc.ViewModels;
 
-namespace DemoApp.Controllers
+namespace ToDo.Web.Mvc.Controllers
 {
     public class HomeController : Controller
     {

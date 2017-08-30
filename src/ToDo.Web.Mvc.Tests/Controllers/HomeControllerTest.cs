@@ -1,9 +1,7 @@
 ﻿using System.Threading.Tasks;
-using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DemoApp.Controllers;
 
-namespace DemoApp.Tests.Controllers
+namespace ToDo.Web.Mvc.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
